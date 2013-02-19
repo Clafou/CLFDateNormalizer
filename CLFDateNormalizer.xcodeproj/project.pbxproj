@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96BC4CA616D38DDE008F4BC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BC4CA516D38DDE008F4BC7 /* UIKit.framework */; };
+		96BC4CA816D38DDE008F4BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BC4CA716D38DDE008F4BC7 /* Foundation.framework */; };
+		96BC4CAA16D38DDE008F4BC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BC4CA916D38DDE008F4BC7 /* CoreGraphics.framework */; };
+		96BC4CB016D38DDE008F4BC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96BC4CAE16D38DDE008F4BC7 /* InfoPlist.strings */; };
+		96BC4CB216D38DDE008F4BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC4CB116D38DDE008F4BC7 /* main.m */; };
+		96BC4CB616D38DDE008F4BC7 /* CLFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC4CB516D38DDE008F4BC7 /* CLFAppDelegate.m */; };
+		96BC4CC416D38DDF008F4BC7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BC4CC316D38DDF008F4BC7 /* SenTestingKit.framework */; };
+		96BC4CC516D38DDF008F4BC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BC4CA516D38DDE008F4BC7 /* UIKit.framework */; };
+		96BC4CC616D38DDF008F4BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BC4CA716D38DDE008F4BC7 /* Foundation.framework */; };
+		96BC4CCE16D38DDF008F4BC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96BC4CCC16D38DDF008F4BC7 /* InfoPlist.strings */; };
+		96BC4CD116D38DDF008F4BC7 /* CLFDateNormalizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC4CD016D38DDF008F4BC7 /* CLFDateNormalizerTests.m */; };
+		96BC4CDD16D38EBB008F4BC7 /* CLFDateNormalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC4CDC16D38EBB008F4BC7 /* CLFDateNormalizer.m */; };
+		96BC4CDE16D38EBB008F4BC7 /* CLFDateNormalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BC4CDC16D38EBB008F4BC7 /* CLFDateNormalizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96BC4CC716D38DDF008F4BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BC4C9A16D38DDE008F4BC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BC4CA116D38DDE008F4BC7;
+			remoteInfo = CLFDateNormalizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96BC4CA216D38DDE008F4BC7 /* CLFDateNormalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLFDateNormalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BC4CA516D38DDE008F4BC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96BC4CA716D38DDE008F4BC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96BC4CA916D38DDE008F4BC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96BC4CAD16D38DDE008F4BC7 /* CLFDateNormalizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CLFDateNormalizer-Info.plist"; sourceTree = "<group>"; };
+		96BC4CAF16D38DDE008F4BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96BC4CB116D38DDE008F4BC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96BC4CB316D38DDE008F4BC7 /* CLFDateNormalizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLFDateNormalizer-Prefix.pch"; sourceTree = "<group>"; };
+		96BC4CB416D38DDE008F4BC7 /* CLFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFAppDelegate.h; sourceTree = "<group>"; };
+		96BC4CB516D38DDE008F4BC7 /* CLFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFAppDelegate.m; sourceTree = "<group>"; };
+		96BC4CC216D38DDF008F4BC7 /* CLFDateNormalizerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLFDateNormalizerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BC4CC316D38DDF008F4BC7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		96BC4CCB16D38DDF008F4BC7 /* CLFDateNormalizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CLFDateNormalizerTests-Info.plist"; sourceTree = "<group>"; };
+		96BC4CCD16D38DDF008F4BC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96BC4CCF16D38DDF008F4BC7 /* CLFDateNormalizerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFDateNormalizerTests.h; sourceTree = "<group>"; };
+		96BC4CD016D38DDF008F4BC7 /* CLFDateNormalizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFDateNormalizerTests.m; sourceTree = "<group>"; };
+		96BC4CDB16D38EBB008F4BC7 /* CLFDateNormalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFDateNormalizer.h; sourceTree = "<group>"; };
+		96BC4CDC16D38EBB008F4BC7 /* CLFDateNormalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFDateNormalizer.m; sourceTree = "<group>"; };
+		96BC4CDF16D39CCC008F4BC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96BC4C9F16D38DDE008F4BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC4CA616D38DDE008F4BC7 /* UIKit.framework in Frameworks */,
+				96BC4CA816D38DDE008F4BC7 /* Foundation.framework in Frameworks */,
+				96BC4CAA16D38DDE008F4BC7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC4CBE16D38DDF008F4BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC4CC416D38DDF008F4BC7 /* SenTestingKit.framework in Frameworks */,
+				96BC4CC516D38DDF008F4BC7 /* UIKit.framework in Frameworks */,
+				96BC4CC616D38DDF008F4BC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96BC4C9916D38DDE008F4BC7 = {
+			isa = PBXGroup;
+			children = (
+				96BC4CDF16D39CCC008F4BC7 /* README.md */,
+				96BC4CDA16D38E58008F4BC7 /* CLFDateNormalizer */,
+				96BC4CAB16D38DDE008F4BC7 /* CLFDateNormalizerDummyApp */,
+				96BC4CC916D38DDF008F4BC7 /* CLFDateNormalizerTests */,
+				96BC4CA416D38DDE008F4BC7 /* Frameworks */,
+				96BC4CA316D38DDE008F4BC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96BC4CA316D38DDE008F4BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BC4CA216D38DDE008F4BC7 /* CLFDateNormalizer.app */,
+				96BC4CC216D38DDF008F4BC7 /* CLFDateNormalizerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BC4CA416D38DDE008F4BC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96BC4CA516D38DDE008F4BC7 /* UIKit.framework */,
+				96BC4CA716D38DDE008F4BC7 /* Foundation.framework */,
+				96BC4CA916D38DDE008F4BC7 /* CoreGraphics.framework */,
+				96BC4CC316D38DDF008F4BC7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96BC4CAB16D38DDE008F4BC7 /* CLFDateNormalizerDummyApp */ = {
+			isa = PBXGroup;
+			children = (
+				96BC4CAC16D38DDE008F4BC7 /* Supporting Files */,
+			);
+			name = CLFDateNormalizerDummyApp;
+			path = CLFDateNormalizer;
+			sourceTree = "<group>";
+		};
+		96BC4CAC16D38DDE008F4BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96BC4CB416D38DDE008F4BC7 /* CLFAppDelegate.h */,
+				96BC4CB516D38DDE008F4BC7 /* CLFAppDelegate.m */,
+				96BC4CAD16D38DDE008F4BC7 /* CLFDateNormalizer-Info.plist */,
+				96BC4CAE16D38DDE008F4BC7 /* InfoPlist.strings */,
+				96BC4CB116D38DDE008F4BC7 /* main.m */,
+				96BC4CB316D38DDE008F4BC7 /* CLFDateNormalizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96BC4CC916D38DDF008F4BC7 /* CLFDateNormalizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				96BC4CCF16D38DDF008F4BC7 /* CLFDateNormalizerTests.h */,
+				96BC4CD016D38DDF008F4BC7 /* CLFDateNormalizerTests.m */,
+				96BC4CCA16D38DDF008F4BC7 /* Supporting Files */,
+			);
+			path = CLFDateNormalizerTests;
+			sourceTree = "<group>";
+		};
+		96BC4CCA16D38DDF008F4BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96BC4CCB16D38DDF008F4BC7 /* CLFDateNormalizerTests-Info.plist */,
+				96BC4CCC16D38DDF008F4BC7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96BC4CDA16D38E58008F4BC7 /* CLFDateNormalizer */ = {
+			isa = PBXGroup;
+			children = (
+				96BC4CDB16D38EBB008F4BC7 /* CLFDateNormalizer.h */,
+				96BC4CDC16D38EBB008F4BC7 /* CLFDateNormalizer.m */,
+			);
+			name = CLFDateNormalizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96BC4CA116D38DDE008F4BC7 /* CLFDateNormalizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BC4CD416D38DDF008F4BC7 /* Build configuration list for PBXNativeTarget "CLFDateNormalizer" */;
+			buildPhases = (
+				96BC4C9E16D38DDE008F4BC7 /* Sources */,
+				96BC4C9F16D38DDE008F4BC7 /* Frameworks */,
+				96BC4CA016D38DDE008F4BC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLFDateNormalizer;
+			productName = CLFDateNormalizer;
+			productReference = 96BC4CA216D38DDE008F4BC7 /* CLFDateNormalizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96BC4CC116D38DDF008F4BC7 /* CLFDateNormalizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BC4CD716D38DDF008F4BC7 /* Build configuration list for PBXNativeTarget "CLFDateNormalizerTests" */;
+			buildPhases = (
+				96BC4CBD16D38DDF008F4BC7 /* Sources */,
+				96BC4CBE16D38DDF008F4BC7 /* Frameworks */,
+				96BC4CBF16D38DDF008F4BC7 /* Resources */,
+				96BC4CC016D38DDF008F4BC7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BC4CC816D38DDF008F4BC7 /* PBXTargetDependency */,
+			);
+			name = CLFDateNormalizerTests;
+			productName = CLFDateNormalizerTests;
+			productReference = 96BC4CC216D38DDF008F4BC7 /* CLFDateNormalizerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96BC4C9A16D38DDE008F4BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CLF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sébastien Molines";
+			};
+			buildConfigurationList = 96BC4C9D16D38DDE008F4BC7 /* Build configuration list for PBXProject "CLFDateNormalizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96BC4C9916D38DDE008F4BC7;
+			productRefGroup = 96BC4CA316D38DDE008F4BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BC4CA116D38DDE008F4BC7 /* CLFDateNormalizer */,
+				96BC4CC116D38DDF008F4BC7 /* CLFDateNormalizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96BC4CA016D38DDE008F4BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC4CB016D38DDE008F4BC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC4CBF16D38DDF008F4BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC4CCE16D38DDF008F4BC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96BC4CC016D38DDF008F4BC7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BC4C9E16D38DDE008F4BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC4CB216D38DDE008F4BC7 /* main.m in Sources */,
+				96BC4CB616D38DDE008F4BC7 /* CLFAppDelegate.m in Sources */,
+				96BC4CDD16D38EBB008F4BC7 /* CLFDateNormalizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BC4CBD16D38DDF008F4BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC4CD116D38DDF008F4BC7 /* CLFDateNormalizerTests.m in Sources */,
+				96BC4CDE16D38EBB008F4BC7 /* CLFDateNormalizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96BC4CC816D38DDF008F4BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BC4CA116D38DDE008F4BC7 /* CLFDateNormalizer */;
+			targetProxy = 96BC4CC716D38DDF008F4BC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96BC4CAE16D38DDE008F4BC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BC4CAF16D38DDE008F4BC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96BC4CCC16D38DDF008F4BC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BC4CCD16D38DDF008F4BC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96BC4CD216D38DDF008F4BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96BC4CD316D38DDF008F4BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96BC4CD516D38DDF008F4BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLFDateNormalizer/CLFDateNormalizer-Prefix.pch";
+				INFOPLIST_FILE = "CLFDateNormalizer/CLFDateNormalizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96BC4CD616D38DDF008F4BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLFDateNormalizer/CLFDateNormalizer-Prefix.pch";
+				INFOPLIST_FILE = "CLFDateNormalizer/CLFDateNormalizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		96BC4CD816D38DDF008F4BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CLFDateNormalizer.app/CLFDateNormalizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLFDateNormalizer/CLFDateNormalizer-Prefix.pch";
+				INFOPLIST_FILE = "CLFDateNormalizerTests/CLFDateNormalizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		96BC4CD916D38DDF008F4BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CLFDateNormalizer.app/CLFDateNormalizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLFDateNormalizer/CLFDateNormalizer-Prefix.pch";
+				INFOPLIST_FILE = "CLFDateNormalizerTests/CLFDateNormalizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96BC4C9D16D38DDE008F4BC7 /* Build configuration list for PBXProject "CLFDateNormalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BC4CD216D38DDF008F4BC7 /* Debug */,
+				96BC4CD316D38DDF008F4BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BC4CD416D38DDF008F4BC7 /* Build configuration list for PBXNativeTarget "CLFDateNormalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BC4CD516D38DDF008F4BC7 /* Debug */,
+				96BC4CD616D38DDF008F4BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96BC4CD716D38DDF008F4BC7 /* Build configuration list for PBXNativeTarget "CLFDateNormalizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BC4CD816D38DDF008F4BC7 /* Debug */,
+				96BC4CD916D38DDF008F4BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96BC4C9A16D38DDE008F4BC7 /* Project object */;
+}
