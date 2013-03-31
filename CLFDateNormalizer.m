@@ -30,6 +30,12 @@
     return normalized;
 }
 
+// Returns an NSDate representing in UTC the same calendar date as what the local time zone considers to be today at this moment. The time portion is midnight UTC time.
+- (NSDate *)normalizeToday
+{
+    return [self normalize:[NSDate date]];
+}
+
 - (void)dealloc
 {
     [_localCalendar release];

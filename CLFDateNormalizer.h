@@ -16,5 +16,6 @@
 
 - (id)initWithLocalTimeZone:(NSTimeZone *)localTimeZone;
 - (NSDate *)normalize:(NSDate *)date;
+- (NSDate *)normalizeToday;
 
 @end
