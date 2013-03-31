@@ -32,8 +32,8 @@
 
 - (void)dealloc
 {
-    [_localCalendar dealloc];
-    [_utcCalendar dealloc];
+    [_localCalendar release];
+    [_utcCalendar release];
     [super dealloc];
 }
 
